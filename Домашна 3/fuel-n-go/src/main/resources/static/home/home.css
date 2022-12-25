@@ -1,0 +1,280 @@
+.home-container {
+  min-height: 100vh;
+}
+.home-home {
+  /*width: 1200px;*/
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-start;
+  background-color: #9396BF;
+}
+.home-logo {
+  top: 110px;
+  left: 0px;
+  right: 0px;
+  width: 170px;
+  height: 160px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.home-ellipse1 {
+  left: 0px;
+  right: 0px;
+  width: 170px;
+  bottom: -1px;
+  height: 160px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.home-vector {
+  top: 32px;
+  left: 46px;
+  width: 91px;
+  height: 92px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.home-button {
+  left: 0px;
+  color: rgb(50, 60, 166);
+  right: 0px;
+  width: 248px;
+  top: 300px;
+  height: 52px;
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  padding-right: 1px;
+  text-transform: uppercase;
+  background-color: rgb(243, 225, 179);
+}
+.home-button1 {
+  left: 0px;
+  color: rgb(50, 60, 166);
+  right: 0px;
+  width: 248px;
+  top: 630px;
+  height: 52px;
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  padding-right: 1px;
+  text-transform: uppercase;
+  background-color: rgb(243, 225, 179);
+}
+.home-button2 {
+  left: 0px;
+  color: rgb(50, 60, 166);
+  right: 0px;
+  width: 248px;
+  top: 730px;
+  height: 52px;
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  padding-right: 1px;
+  text-transform: uppercase;
+  background-color: rgb(243, 225, 179);
+}
+.home-container1 {
+  top: 418px;
+  left: 0px;
+  right: 0px;
+  width: 400px;
+  height: 163px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+.home-image {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 163px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.home-text {
+  left: 30px;
+  color: rgb(50, 60, 166);
+  bottom: 14.000011444091797px;
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-image1 {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  object-fit: cover;
+}
+.home-text1 {
+  top: 7px;
+  /*left: 34px;*/
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text2 {
+  left: 30px;
+  color: rgb(50, 60, 166);
+  bottom: 41.54999923706055px;
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text3 {
+  top: 69px;
+  left: 30px;
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .home-home {
+    width: 991px;
+  }
+  .home-logo {
+    top: 112px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button2 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 767px) {
+  .home-home {
+    width: 767px;
+  }
+  .home-logo {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button2 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 479px) {
+  .home-home {
+    width: 479px;
+  }
+  .home-logo {
+    top: 112px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .home-button2 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}

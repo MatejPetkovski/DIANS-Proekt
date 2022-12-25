@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  app:
+    container_name: fuel-n-go-container
+    image: fuel-n-go
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresqldb
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=teodor2207
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=fuel-n-go_db

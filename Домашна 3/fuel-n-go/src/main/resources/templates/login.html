@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="english" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: #9396BF;
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="/login/style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="/login/login.css" rel="stylesheet" />
+
+      <div class="login-container">
+       
+          <div class="login-logo">
+            <img
+              alt="Ellipse1311"
+              src="/login/public/playground_assets/ellipse1311-mgk2a-200h.png"
+              class="login-ellipse1"
+            />
+            <img
+              alt="Vector6279"
+              src="/login/public/playground_assets/vector6279-6wl-200w.png"
+              class="login-vector"
+            />
+          </div>
+          <div class="login-container1">
+            <img
+              alt="image"
+              src="/login/public/playground_assets/1f04e320-79a8-4d94-abcf-b043aa30cee3-400h.png"
+              class="login-image"
+            />
+            <img
+              alt="image"
+              src="/login/public/playground_assets/af5c095b-315f-461f-93ec-807aeb4077f9-200h.png"
+              class="login-image1"
+            />
+            <span class="login-text">Најава</span>
+            <span class="login-text1">Лозинка&nbsp;</span>
+            <span class="login-text2">Корисничко име</span>
+            <!--<a
+              href="https://example.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="login-link"
+            >
+              Заборавена лозинка
+            </a>-->
+            <a
+              href="/register"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="login-link"
+            >
+              Регистрација за нов корисник
+            </a>
+            <form th:method="POST" th:action="@{/login}">
+              <input class="login-textinput input" placeholder="Корисничко име.." type="text" id="username" name="username"/>
+              <br/>
+              <input class="login-textinput1 input" placeholder="Лозинка.." type="password" id="password" name="password"/>
+              <br/>
+
+              <button type="submit" class="login-button button">НАЈАВЕТЕ СЕ</button>
+            </form>
+            <th:block th:if="${error}==true">
+              <span class="error" th:text="${errorMsg}"></span>
+            </th:block>
+
+          </div>
+        </div>
+      
+    </div>
+  </body>
+</html>
