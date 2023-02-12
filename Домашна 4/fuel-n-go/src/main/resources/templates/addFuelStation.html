@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Додади Бензинска Станица</title>
+    <style>
+        body {
+            background-color: #9396BF;
+        }
+    </style>
+</head>
+<body>
+
+<form th:method="post" th:action="@{/admin/add}">
+
+
+    <label for="name">Име</label>
+    <input type="text" id="name" name="name" required><br/>
+  <label for="street">Улица</label>
+  <input type="text" id="street" name="street" required ><br/>
+    <label for="lat">Латитуда</label>
+    <input type="text" id="lat" name="lat" required >
+    <label for="lon">Лонгитуда</label>
+    <input type="text" id="lon" name="lon" required ></br>
+  <label for="website">Веб страна</label>
+  <input type="text" id="website" name="website" required ><br/>
+  <label for="phone">Телефонски број</label>
+  <input type="text" id="phone" name="phone" required ><br/>
+
+  <input id="submit" type="submit" name="Submit">
+
+</form>
+</body>
+</html>

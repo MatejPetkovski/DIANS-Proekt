@@ -1,0 +1,271 @@
+.register-container {
+  min-height: 100vh;
+}
+.register-register {
+  /*width: 1200px;*/
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: #9396BF;
+}
+.register-logo {
+  top: 110px;
+  left: 0px;
+  right: 0px;
+  width: 170px;
+  height: 160px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.register-ellipse1 {
+  left: 0px;
+  right: 0px;
+  width: 170px;
+  bottom: -1px;
+  height: 160px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.register-vector {
+  top: 32px;
+  left: 46px;
+  width: 91px;
+  height: 92px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.register-container1 {
+  top: 404px;
+ 
+  width: 240px;
+  height: 177px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.register-image {
+  top: -88px;
+  left: 0px;
+  width: 240px;
+  height: 413px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.register-image1 {
+  top: -88px;
+  left: 0px;
+  width: 240px;
+  height: 42px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.register-text {
+  top: -83px;
+  left: 45px;
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.register-button {
+  left: 35px;
+  color: rgb(50, 60, 166);
+  width: 162px;
+  bottom: -142px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: rgb(240, 201, 102);
+}
+.register-text1 {
+  top: 55px;
+  left: 17px;
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.register-text2 {
+  left: 17px;
+  color: rgb(50, 60, 166);
+  bottom: -28px;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.register-text3 {
+  top: 122px;
+  left: 19px;
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.register-text4 {
+  top: -19px;
+  left: 15px;
+  color: rgb(50, 60, 166);
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.register-textinput {
+  top: 6px;
+  left: 15px;
+  width: 207px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  background-color: #F0C966;
+}
+.register-textinput1 {
+  left: 15px;
+  width: 207px;
+  bottom: -68px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  background-color: #F0C966;
+}
+.register-textinput2 {
+  left: 15px;
+  width: 207px;
+  bottom: -2px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  background-color: #F0C966;
+}
+.register-textinput3 {
+  top: 79px;
+  left: 17px;
+  width: 207px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  background-color: #F0C966;
+}
+.error
+{
+  z-index: 99 !important;
+  position: relative;
+  font-size: 14px;
+  top: 175px;
+  left: 10px;
+  color: red;
+}
+@media(max-width: 991px) {
+  .register-register {
+    width: 991px;
+  }
+  .register-logo {
+    top: 112px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+
+}
+@media(max-width: 767px) {
+  .register-register {
+    width: 767px;
+  }
+  .register-logo {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 479px) {
+  .register-register {
+    width: 479px;
+  }
+  .register-logo {
+    top: 112px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-ellipse1 {
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-vector {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .register-button {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
